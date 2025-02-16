@@ -2,7 +2,7 @@ export default function Header({ showLogout, onLogout, className }) {
     return (
         <header className={`${className} flex flex-col items-center space-y-2 py-4`}>
             {/* Заголовок */}
-            <h1 className="text-2xl font-bold">Сайт информации о колледже</h1>
+            <h1 className="text-2xl font-bold">Сайт информация о колледже</h1>
 
             {/* Контейнер для кнопок */}
             <div className="flex justify-between w-full px-4">
